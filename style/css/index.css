@@ -1,0 +1,63 @@
+.top-image{
+    position: absolute;
+    right: 105vh;
+    bottom: 40vh;
+}
+.bottom-image{
+    position: absolute;
+    left: 105vh;
+    top: 40vh;
+}
+
+body{
+    overflow: hidden;
+    background-color: hsl(182deg 64% 46%);
+}
+.card-image{
+    /* margin: auto; */
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.image-victor{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 5rem;
+}
+
+.centered{
+    text-align: center;
+    background-image: url("../../images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+.follow-1{
+    float: left;
+    margin-top: -10px;
+    margin-left: 3rem;
+    
+}
+.follow-2{
+    margin-right: 7rem;
+    margin-top: -2px;
+}
+.follow-3{
+    float: right;
+    margin-top: -75px;
+    margin-right: 4rem;
+}
+p{
+    font-size: small;
+    font-weight: 500;
+    margin-top: -13px;
+
+}
